@@ -74,14 +74,6 @@ main {
   display: none;
 }
 
-.open-menu #desktop-nav,
-.open-menu #desktop-nav ul {
-  display: flex;
-  flex-direction: column;
-  z-index: 100;
-  background-color: #3c3a39;
-}
-
 #desktop-nav ul {
   width: 100%;
   position: absolute;
@@ -90,6 +82,14 @@ main {
   bottom: 0;
   height: 100vh;
   padding-top: 4rem;
+}
+
+.open-menu #desktop-nav,
+.open-menu #desktop-nav ul {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #3c3a39;
 }
 
 #intro,
