@@ -12,6 +12,7 @@ html {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 hr {
@@ -20,16 +21,12 @@ hr {
 
 header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
   background-color: #3c3a39;
   color: white;
-}
-
-#desktop-nav,
-#desktop-nav ul {
-  display: none;
 }
 
 #logo {
@@ -55,6 +52,44 @@ header {
 main {
   display: flex;
   flex-direction: column;
+}
+
+.open-btn {
+  display: block;
+}
+
+.open-menu .close-btn {
+  display: flex;
+  color: white;
+}
+
+.open-menu .open-btn,
+.open-menu #logo {
+  display: none;
+  cursor: pointer;
+}
+
+#desktop-nav,
+#desktop-nav ul {
+  display: none;
+}
+
+.open-menu #desktop-nav,
+.open-menu #desktop-nav ul {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  background-color: #3c3a39;
+}
+
+#desktop-nav ul {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  padding-top: 4rem;
 }
 
 #intro,
