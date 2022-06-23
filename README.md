@@ -1,62 +1,40 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Curriculum Training Mobile Menu
 
-# Project Name
-
-> Description the project.
-
+> 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+- HTML
+- CSS
+- Javascript
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To use this project and running it localy, follow the steps bellow:
+#### Clone this repository
 
+`git clone git@github.com:cynthiainga/training_mobile_menu.git`
 
-To get a local copy up and running follow these simple example steps.
+`cd training_mobile_menu`
 
-### Prerequisites
+#### Open page in browser
+```bash
+$ run on live server
+$ runs on http://localhost:8000/
+```
 
-### Setup
+## Author
 
-### Install
+👤 **Candy Inga Cynthia**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@cynthiainga](https://github.com/cynthiainga)
+- Twitter: [@CynthiaInga_C](https://twitter.com/CynthiaInga_C)
+- LinkedIn: [Cynthia Inga](https://www.linkedin.com/in/cynthia-inga/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/cynthiainga/training_mobile_menu/issues).
 
 ## Show your support
 
